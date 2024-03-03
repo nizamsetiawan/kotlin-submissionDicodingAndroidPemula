@@ -1,0 +1,111 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_detail"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorSecondary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_partai_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_detail" />
+
+        <TextView
+            android:id="@+id/tv_nama_partai_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/nama_detail_partai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_partai_detail" />
+
+        <TextView
+            android:id="@+id/tv_nomor_partai_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/nomor_partai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_nama_partai_detail" />
+
+        <TextView
+            android:id="@+id/tv_visi_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="16dp"
+            android:text="@string/visi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_nomor_partai_detail" />
+
+        <TextView
+            android:id="@+id/tv_misi_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/misi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_visi_detail" />
+
+        <TextView
+            android:id="@+id/tv_nama_ketua_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/nama_ketua"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_misi_detail" />
+
+        <TextView
+            android:id="@+id/tv_tahun_berdiri_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/tahun_berdiri"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_nama_ketua_detail" />
+
+        <TextView
+            android:id="@+id/tv_alamat_kantor_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/alamat_kantor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_tahun_berdiri_detail" />
+
+        <TextView
+            android:id="@+id/tv_website_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/website"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_alamat_kantor_detail" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi_detail"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/deskripsi"
+            app:layout_constraintHorizontal_bias=" 0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_website_detail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

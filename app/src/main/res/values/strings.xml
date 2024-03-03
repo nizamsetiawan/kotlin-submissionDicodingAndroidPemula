@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bijak Memilih</string>
+    <string name="nama_partai">Nama Partai</string>
+    <string name="ketua_partai">ketua_partai</string>
+    <string name="no_urut">no_urut</string>
+    <string name="nama_detail_partai">Nama Partai</string>
+    <string name="nomor_partai">Nomor Partai</string>
+    <string name="visi">Visi:</string>
+    <string name="misi">Misi:</string>
+    <string name="nama_ketua">Nama Ketua:</string>
+    <string name="tahun_berdiri">Tahun Berdiri:</string>
+    <string name="alamat_kantor">Alamat Kantor:</string>
+    <string name="website">Website:</string>
+    <string name="deskripsi">Deskripsi:</string>
+    <string name="bijak_memilih">Bijak Memilih</string>
+    <string name="profile">Profile</string>
+    <string name="m_nizam_setiawan">M Nizam Setiawan</string>
+    <string name="email">nizamsetiawan15@gmail.com</string>
+    <string name="tittle">Mobile Apps Developer</string>
+    <string name="alamat">Golokan Sidayu Gresik</string>
+</resources>
